@@ -4,8 +4,8 @@ import java.math.BigDecimal;
 import java.util.Objects;
 
 public class Money {
-    private BigDecimal cost;
 
+    private BigDecimal cost;
     private String currency;
 
 

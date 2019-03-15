@@ -18,11 +18,11 @@ import java.util.Objects;
 
 public class OfferItem {
 
-    ProductData product;
-    Money totalCost;
+    private ProductData product;
+    private Money totalCost;
     private int quantity;
-    String currency;
-    Discount discount;
+    private String currency;
+    private Discount discount;
 
     public OfferItem(ProductData product, int quantity, Discount discount) {
         this.product = product;
